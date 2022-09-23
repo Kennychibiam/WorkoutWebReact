@@ -6,10 +6,10 @@ Developed with MERN stack
 
 <tr>
 <td>
-<img  src='snapshots/snap1.png' width=800 height 800/>
+<img  src='snapshots/snap1.PNG' width=800 height 800/>
 </td>
 <td>
-<img  src='snapshots/snap2.png' width=800 height 800/>
+<img  src='snapshots/snap2.PNG' width=800 height 800/>
 </td>
 </tr>
 
