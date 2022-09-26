@@ -4,12 +4,14 @@ const express =require("express")
 const app=express()
 const workoutRoutes=require('./routes/workouts')
 const mongoose=require('mongoose')
+const userRoutes=require('./routes/user')
 
 app.use(express.json())//to help decode the json when request is made
 app.use((req,res,next)=>{
     console.log(req.path,req.method)
     next()
 })
+app.use('/api/user',userRoutes)
 app.use('/api/workouts',workoutRoutes)
 
 mongoose.connect(process.env.MONGO_URI).then(()=>{

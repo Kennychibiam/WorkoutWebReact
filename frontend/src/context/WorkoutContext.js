@@ -9,13 +9,10 @@ export const workoutsReducer = (state, action) => {
         case 'CREATE_WORKOUT':
             return { workouts: [action.payload, ...state.workouts] }
         case 'DELETE_WORKOUT':
-            console.log("reached")
-            console.log(action.payload)
-            console.log(state)
+            
             const temp=state.workouts.filter(work=>work._id!==action.payload.workout._id)
 
             
-            console.log(temp)
         return {
             workouts:temp
         }

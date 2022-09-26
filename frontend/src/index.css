@@ -105,3 +105,36 @@ div.error{
   border-radius: 4px;
   margin: 20px 0;
 }
+
+nav{
+  display: flex;
+  align-items: center;
+}
+
+nav a{
+  margin-left: 10px;
+}
+
+form.signup, form.login{
+  max-width:400px;
+  width:100%;
+  margin: 40px, auto;
+  padding: 20px;
+  background:#fff;
+  border-radius: 4px;
+}
+
+.form-center{
+  display: flex;
+  justify-content: center;
+}
+nav button {
+  background: #fff;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-family: "Poppins";
+  cursor: pointer;
+  font-size: 1em;
+}
